@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "frontend-wheat-tau-34.vercel.app",
+    origin: "https://frontend-wheat-tau-34.vercel.app",
     credentials: true,
   })
 );
