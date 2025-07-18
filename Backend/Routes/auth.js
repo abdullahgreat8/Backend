@@ -15,7 +15,7 @@ router.get(
     const { token, user } = req.user;
 
     // Redirect to frontend with token as query param
-    res.redirect(`http://localhost:3000/google-login-success?token=${token}`);
+    res.redirect(`https://frontend-wheat-tau-34.vercel.app/google-login-success?token=${token}`);
   }
 );
 
