@@ -21,7 +21,7 @@ const get_all_services=async(req,res)=>{
         )
     }
     if(result.rows.length===0){
-        return res.status(200).json({message: "your request for has been forwarded to the respective department. We will Contact your shortly."})
+        return res.status(200).json({message: "your request for has been forwarded to the respective department. We will contact your shortly."})
 
     }
     return res.status(200).json({message: "Services Fetched successfully",services: result.rows})
